@@ -63,23 +63,6 @@ This project compares **supervised classifiers** with **unsupervised clustering*
 - Hyperparameter tuning for SVM (`C`, `γ`).
 - Evaluation with accuracy, precision, recall, F1, ROC-AUC, confusion matrices and silhouette score.
 
-## Notebooks
-
-| Notebook | Content |
-|---|---|
-| [`01_logistic_regression_naive_bayes.ipynb`](notebooks/01_logistic_regression_naive_bayes.ipynb) | Part 1 on both datasets |
-| [`02_svm_clustering_breast_cancer.ipynb`](notebooks/02_svm_clustering_breast_cancer.ipynb) | Part 2: Breast Cancer |
-| [`03_svm_clustering_adult_income.ipynb`](notebooks/03_svm_clustering_adult_income.ipynb) | Part 2: Adult Income |
-
-## Running it
-
-```bash
-pip install -r requirements.txt
-```
-
-1. Download `wdbc.data` and `adult.data` from the UCI links above.
-2. Update the `read_csv` path at the top of each notebook to point to them.
-
 ## Tech stack
 
 Python · scikit-learn · pandas · NumPy · SciPy · Matplotlib · Seaborn
